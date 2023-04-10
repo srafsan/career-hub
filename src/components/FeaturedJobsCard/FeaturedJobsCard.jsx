@@ -2,16 +2,16 @@ import React from "react";
 import LocationIcon from "../../assets/Icons/Frame-4.png";
 import MoneyIcon from "../../assets/Icons/Frame.png";
 
-const FeaturedJobsCard = ({ job }) => {
-    const { name, post, location, types, salary, img } = job;
+const FeaturedJobsCard = ({ fJob }) => {
+    const { name, job, location, types, salary, logo } = fJob;
 
     return (
         <div className="border rounded-lg w-[450px] h-full p-10 text-left">
             <div className="h-10">
-                <img className="w-[90px]" src={img} alt="" />
+                <img className="w-[90px]" src={logo} alt="" />
             </div>
             <div className="mt-8">
-                <h2 className="text-xl font-bold">{post}</h2>
+                <h2 className="text-xl font-bold">{job}</h2>
                 <p className="text-gray-500">{name}</p>
             </div>
             <div className="my-4 flex">

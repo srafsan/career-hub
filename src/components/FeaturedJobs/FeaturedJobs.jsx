@@ -18,8 +18,8 @@ const FeaturedJobs = () => {
                 you need. Its your future
             </p>
             <div className="mt-8 grid md:grid-cols-2 gap-6 justify-center">
-                {featuredJobs.map((job) => (
-                    <FeaturedJobsCard key={job.id} job={job} />
+                {featuredJobs.map((fJob) => (
+                    <FeaturedJobsCard key={fJob.id} fJob={fJob} />
                 ))}
             </div>
             <button className="btn btn-info mt-10 text-white">
