@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Google LLC",
+        "post": "Technical Database Engineer",
+        "location": "Dhaka, Bangladesh",
+        "types": ["Remote", "Full Time"],
+        "salary": "100k-150k",
+        "img": "../src/assets/Logo/google-1-1 1-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Netflix",
+        "post": "Senior Product Designer",
+        "location": "Dhaka, Bangladesh",
+        "types": ["Onsite", "Full Time"],
+        "salary": "100k-150k",
+        "img": "../src/assets/Logo/netflix-4 1.png"
+    },
+    {
+        "id": 3,
+        "name": "Tesla",
+        "post": "Software Engineer",
+        "location": "Dhaka, Bangladesh",
+        "types": ["Remote", "Full Time"],
+        "salary": "100k-150k",
+        "img": "../src/assets/Logo/tesla-9 1.png"
+    },
+    {
+        "id": 4,
+        "name": "Google LLC",
+        "post": "Technical Database Engineer",
+        "location": "Dhaka, Bangladesh",
+        "types": ["Onsite", "Full Time"],
+        "salary": "90k-150k",
+        "img": "../src/assets/Logo/google-1-1 1-1.png"
+    },
+    {
+        "id": 5,
+        "name": "Tesla",
+        "post": "Accountant",
+        "location": "Dhaka, Bangladesh",
+        "types": ["Onsite", "Full Time"],
+        "salary": "70k-80k",
+        "img": "../src/assets/Logo/tesla-9 1.png"
+    },
+    {
+        "id": 6,
+        "name": "Google LLC",
+        "post": "Software Engineer",
+        "location": "Dhaka, Bangladesh",
+        "types": ["Onsite", "Part Time"],
+        "salary": "40k-50k",
+        "img": "../src/assets/Logo/google-1-1 1-1.png"
+    }
+]

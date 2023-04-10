@@ -4,8 +4,8 @@ import HeroLogo from "../../assets/All Images/P3OLGJ1 copy 1.png";
 
 const Hero = () => {
     return (
-        <div className="grid grid-cols-2 text-left">
-            <div className="p-6">
+        <div className="grid md:grid-cols-2 text-left">
+            <div className="p-6 text-center">
                 <h1 className="font-bold text-6xl">
                     One Step <br /> Closer To Your <br />
                     <span className="text-blue-400">Dream Job</span>
@@ -20,7 +20,7 @@ const Hero = () => {
                 </button>
             </div>
             <div>
-                <img src={HeroLogo} className="float-right" alt="Banner" />
+                <img src={HeroLogo} className="md:float-right" alt="Banner" />
             </div>
         </div>
     );

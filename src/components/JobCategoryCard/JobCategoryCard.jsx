@@ -4,7 +4,7 @@ const JobCategoryCard = ({ job }) => {
     const { title, jobs, img } = job;
 
     return (
-        <div className="bg-gray-50 w-60 p-10 rounded-lg border">
+        <div className="bg-gray-50 md:w-60 p-10 rounded-lg border">
             <img
                 className="bg-gray-200 p-4 rounded-lg w-[60px]"
                 src={img}
