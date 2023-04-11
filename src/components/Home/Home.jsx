@@ -6,7 +6,6 @@ import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 const Home = () => {
     const jobCategoryData = useLoaderData();
-    console.log(jobCategoryData);
     localStorage.setItem("job-category-data", JSON.stringify(jobCategoryData));
 
     return (

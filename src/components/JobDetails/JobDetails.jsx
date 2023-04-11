@@ -6,27 +6,7 @@ const JobDetails = () => {
     storedInfo = JSON.parse(storedInfo);
 
     const id = storedInfo.id;
-    // const [jobs, setJobs] = useState([]);
-    // const job = jobs.find((job) => job.id === parseInt(id));
     const job = storedInfo.job;
-
-    // useEffect(() => {
-    //     const fetchJobs = async () => {
-    //         try {
-    //             const res = await fetch("featuredJobs.json");
-    //             const data = await res.json();
-    //             setJobs([...jobs, ...data]);
-    //         } catch (err) {
-    //             console.error(err);
-    //         }
-    //     };
-
-    //     fetchJobs();
-    // }, [jobs]);
-
-    // useEffect(() => {
-    //     console.log(job);
-    // }, [job]);
 
     return (
         <div className="mt-8">

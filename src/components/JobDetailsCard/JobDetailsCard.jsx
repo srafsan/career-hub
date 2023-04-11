@@ -5,9 +5,11 @@ import CalenderLogo from "../../assets/Icons/Frame-1.png";
 import PhoneLogo from "../../assets/Icons/Frame-2.png";
 import EmailLogo from "../../assets/Icons/Frame-3.png";
 import LocationLogo from "../../assets/Icons/Frame-4.png";
+import { addToDb } from "../../utils/fakeDB";
 
 const JobDetailsCard = ({ jobs }) => {
     const {
+        id,
         description,
         responsibility,
         education,
@@ -17,6 +19,10 @@ const JobDetailsCard = ({ jobs }) => {
         contact,
         location,
     } = jobs;
+
+    const handleAddToDb = (id) => {
+        addToDb(id, jobs);
+    };
 
     return (
         <div>
@@ -103,7 +109,10 @@ const JobDetailsCard = ({ jobs }) => {
                     </div>
                 </div>
             </div>
-            <button className="btn btn-info float-right mt-6 w-[330px]">
+            <button
+                className="btn btn-info float-right mt-6 w-[330px]"
+                onClick={() => handleAddToDb(id)}
+            >
                 Apply Now
             </button>
         </div>
