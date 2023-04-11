@@ -38,16 +38,12 @@ const router = createBrowserRouter([
                 path: "/blog",
                 element: <Blog />,
             },
-            // {
-            //     path: "/test",
-            //     element: <JobDetails />,
-            // },
         ],
     },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    // <React.StrictMode>
-    <RouterProvider router={router} />
-    // </React.StrictMode>
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>
 );
