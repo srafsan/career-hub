@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import JobDetails from "../JobDetails/JobDetails";
 import LocationIcon from "../../assets/Icons/Frame-4.png";
 import MoneyIcon from "../../assets/Icons/Frame.png";
-import { Link } from "react-router-dom";
-import JobDetails from "../JobDetails/JobDetails";
 
 const FeaturedJobsCard = ({ fJob }) => {
     const { id, name, job, location, types, salary, logo } = fJob;
