@@ -1,7 +1,10 @@
 import React from "react";
 import JobCategoryCard from "../JobCategoryCard/JobCategoryCard";
 
-const JobCategory = ({ jobCategoryData }) => {
+const JobCategory = () => {
+    let jobCategoryData = localStorage.getItem("job-category-data");
+    jobCategoryData = JSON.parse(jobCategoryData);
+
     return (
         <div className="mt-32">
             <h1 className="text-5xl font-bold">Job Category List</h1>

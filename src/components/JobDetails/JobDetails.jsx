@@ -2,23 +2,42 @@ import React, { useEffect, useState } from "react";
 import JobDetailsCard from "../JobDetailsCard/JobDetailsCard";
 
 const JobDetails = () => {
-    const [jobs, setJobs] = useState([]);
+    let storedInfo = localStorage.getItem("unique-feature-job");
+    storedInfo = JSON.parse(storedInfo);
 
-    useEffect(() => {
-        fetch("featuredJobs.json")
-            .then((res) => res.json())
-            .then((data) => setJobs([...jobs, ...data]));
-    }, []);
+    const id = storedInfo.id;
+    // const [jobs, setJobs] = useState([]);
+    // const job = jobs.find((job) => job.id === parseInt(id));
+    const job = storedInfo.job;
+
+    // useEffect(() => {
+    //     const fetchJobs = async () => {
+    //         try {
+    //             const res = await fetch("featuredJobs.json");
+    //             const data = await res.json();
+    //             setJobs([...jobs, ...data]);
+    //         } catch (err) {
+    //             console.error(err);
+    //         }
+    //     };
+
+    //     fetchJobs();
+    // }, [jobs]);
+
+    // useEffect(() => {
+    //     console.log(job);
+    // }, [job]);
+
     return (
         <div className="mt-8">
             <section className="h-[280px] bg-gray-400 flex justify-center items-center">
-                <h1>Job Details</h1>
+                <h1>Job Details: {id}</h1>
             </section>
 
             <section className="mt-32">
-                {jobs.slice(0, 1).map((jb) => (
-                    <JobDetailsCard key={jb.id} jobs={jb} />
-                ))}
+                {job && (
+                    <JobDetailsCard key={storedInfo.id} jobs={storedInfo} />
+                )}
             </section>
         </div>
     );

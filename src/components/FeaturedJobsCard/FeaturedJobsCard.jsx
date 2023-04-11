@@ -1,9 +1,16 @@
 import React from "react";
 import LocationIcon from "../../assets/Icons/Frame-4.png";
 import MoneyIcon from "../../assets/Icons/Frame.png";
+import { Link } from "react-router-dom";
+import JobDetails from "../JobDetails/JobDetails";
 
 const FeaturedJobsCard = ({ fJob }) => {
-    const { name, job, location, types, salary, logo } = fJob;
+    const { id, name, job, location, types, salary, logo } = fJob;
+
+    const handleButtonClick = () => {
+        localStorage.setItem("unique-feature-job", JSON.stringify(fJob));
+        return <JobDetails />;
+    };
 
     return (
         <div className="border rounded-lg w-[450px] h-full p-10 text-left">
@@ -36,9 +43,14 @@ const FeaturedJobsCard = ({ fJob }) => {
                     <p className="text-gray-500">Salary: {salary}</p>
                 </div>
             </div>
-            <button className="btn btn-info mt-6 text-white">
-                View Details
-            </button>
+            <Link to={`/jobs/${id}`}>
+                <button
+                    onClick={handleButtonClick}
+                    className="btn btn-info mt-6 text-white"
+                >
+                    View Details
+                </button>
+            </Link>
         </div>
     );
 };

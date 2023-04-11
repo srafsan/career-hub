@@ -31,13 +31,17 @@ const router = createBrowserRouter([
                 element: <AppliedJobs />,
             },
             {
+                path: "/jobs/:id",
+                element: <JobDetails />,
+            },
+            {
                 path: "/blog",
                 element: <Blog />,
             },
-            {
-                path: "/test",
-                element: <JobDetails />,
-            },
+            // {
+            //     path: "/test",
+            //     element: <JobDetails />,
+            // },
         ],
     },
 ]);
