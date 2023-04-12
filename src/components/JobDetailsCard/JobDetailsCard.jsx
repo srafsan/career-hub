@@ -1,6 +1,7 @@
 import React from "react";
+import toast, { Toaster } from "react-hot-toast";
 
-import { addToDb } from "../../utils/fakeDB";
+import { addToDb, getBookmarks } from "../../utils/fakeDB";
 
 const JobDetailsCard = ({ jobs }) => {
     const {
@@ -15,8 +16,19 @@ const JobDetailsCard = ({ jobs }) => {
         location,
     } = jobs;
 
+    const notifySuccess = () => toast.success("Successfully applied!!!");
+    const notifyError = () => toast.error("You have already applied.");
+
     const handleAddToDb = (id) => {
-        addToDb(id, jobs);
+        const bookmarks = getBookmarks();
+        const exist = bookmarks.find((obj) => obj.id === id);
+
+        if (!exist) {
+            addToDb(id, jobs);
+            notifySuccess();
+        } else {
+            notifyError();
+        }
     };
 
     return (
@@ -130,6 +142,7 @@ const JobDetailsCard = ({ jobs }) => {
             >
                 Apply Now
             </button>
+            <Toaster />
         </div>
     );
 };

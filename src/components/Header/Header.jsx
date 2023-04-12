@@ -40,14 +40,26 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-sm">
-                    BanglaJobs
-                </Link>
+                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+            </div>
+            <div className="navbar-center hidden lg:flex">
+                <ul className="menu menu-horizontal px-1">
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/statistics">Statistics</Link>
+                    </li>
+                    <li>
+                        <Link to="/jobs">Applied Jobs</Link>
+                    </li>
+                    <li>
+                        <Link to="blog">Blog</Link>
+                    </li>
+                </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-info font-bold text-white">
-                    Start Applying
-                </a>
+                <a className="btn">Get started</a>
             </div>
         </div>
     );

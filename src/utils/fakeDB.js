@@ -2,11 +2,8 @@
 const addToDb = (id, blog) => {
     let bookmarks = getBookmarks();
     let newBookmarks = [...bookmarks, blog];
-    const exist = bookmarks.find((obj) => obj.id === id);
 
-    if (!exist) {
-        localStorage.setItem("bookmarks-cart", JSON.stringify(newBookmarks));
-    }
+    localStorage.setItem("bookmarks-cart", JSON.stringify(newBookmarks));
 };
 
 const removeFromDb = (id) => {
