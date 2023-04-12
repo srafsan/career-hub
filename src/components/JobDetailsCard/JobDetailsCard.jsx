@@ -13,6 +13,7 @@ const JobDetailsCard = ({ jobs }) => {
         salary,
         job,
         contact,
+        phone,
         location,
     } = jobs;
 
@@ -106,7 +107,7 @@ const JobDetailsCard = ({ jobs }) => {
                             />
                             <p className="text-gray-500">
                                 <strong className="text-black">Phone: </strong>
-                                {contact}
+                                {phone}
                             </p>
                         </div>
                         <div className="flex gap-2 mt-6">

@@ -11,7 +11,8 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
         "education": "Bachelor degree to complete any reputable university.",
         "experience": "2-3 Years in this field.",
-        "contact": "google@gmail.com"
+        "contact": "google@gmail.com",
+        "phone": "01111111111"
     },
     {
         "id": 2,
@@ -25,7 +26,8 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
         "education": "Bachelor's or Master's degree in Design or a related field preferred, with a strong portfolio demonstrating UX and UI design skills and experience.",
         "experience": "8-12 Years in this field.",
-        "contact": "recruit@netflix.com"
+        "contact": "recruit@netflix.com",
+        "phone": "02222222222"
     },
     {
         "id": 3,
@@ -39,7 +41,8 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
         "education": "Bachelor degree to complete any reputational university.",
         "experience": "2-3 Years in this field.",
-        "contact": "hr@testa.com"
+        "contact": "hr@testa.com",
+        "phone": "03333333333"
     },
     {
         "id": 4,
@@ -53,7 +56,8 @@
         "responsibility": "Design, implement, and maintain high-performance, scalable, and reliable databases and database infrastructure. Develop and maintain database schemas, stored procedures, and triggers to ensure efficient data access and manipulation. Troubleshoot database issues and provide technical support to end-users, including performance tuning and optimization. Collaborate with cross-functional teams to ensure database solutions align with business requirements and integrate with other systems. Stay up-to-date with emerging database technologies and best practices to continuously improve database solutions.",
         "education": "Bachelor's or Master's degree in Computer Science or a related field preferred, with a strong background in database design, development, and administration.",
         "experience": "5-10 Years in this field.",
-        "contact": "google@gmail.com"
+        "contact": "google@gmail.com",
+        "phone": "04444444444"
     },
     {
         "id": 5,
@@ -67,7 +71,8 @@
         "responsibility": "Develop and execute product strategies to meet customer needs and business objectives. Conduct market research and analyze customer feedback to identify product opportunities and trends.Collaborate with cross-functional teams to define product requirements and roadmap. Monitor product performance and metrics, and make data-driven decisions to optimize product success. Lead product launches and go-to-market strategies.",
         "education": "Bachelor's or Master's degree in Business Administration or a related field preferred.",
         "experience": "5-8 Years in this field.",
-        "contact": "hr@testa.com"
+        "contact": "hr@testa.com",
+        "phone": "05555555555"
     },
     {
         "id": 6,
@@ -81,6 +86,7 @@
         "responsibility": "Design and develop software applications using programming languages and tools such as Java, Python, and C++. Write clean, efficient, and maintainable code that adheres to industry best practices and coding standards. Test and debug software to ensure high-quality and reliable performance. Collaborate with cross-functional teams to identify and prioritize software features based on customer or business requirements.",
         "education": "Bachelor's or Master's degree in Computer Science or related field preferred.",
         "experience": "10-15 Years in this field.",
-        "contact": "google@gmail.com"
+        "contact": "google@gmail.com",
+        "phone": "06666666666"
     }
 ]
