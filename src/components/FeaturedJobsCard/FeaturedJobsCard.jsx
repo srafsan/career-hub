@@ -11,7 +11,7 @@ const FeaturedJobsCard = ({ fJob }) => {
     };
 
     return (
-        <div className="border rounded-lg w-[450px] h-full p-10 text-left">
+        <div className="border rounded-lg w-full md:w-[450px] h-full p-10 text-left">
             <div className="h-10">
                 <img className="w-[90px]" src={logo} alt="" />
             </div>
@@ -31,16 +31,21 @@ const FeaturedJobsCard = ({ fJob }) => {
                     );
                 })}
             </div>
-            <div className="flex gap-6">
+            <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex gap-2">
                     <img
                         src="https://i.ibb.co/Xj7xbv8/Frame-4.png"
+                        className="w-6 h-6"
                         alt="location"
                     />
                     <p className="text-gray-500">{location}</p>
                 </div>
                 <div className="flex gap-2">
-                    <img src="https://i.ibb.co/g3t0LCT/Frame.png" alt="" />
+                    <img
+                        src="https://i.ibb.co/g3t0LCT/Frame.png"
+                        className="w-6 h-6"
+                        alt=""
+                    />
                     <p className="text-gray-500">Salary: {salary}</p>
                 </div>
             </div>
