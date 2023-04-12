@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { getBookmarks } from "../../utils/fakeDB";
 import AppliedJobsCard from "../AppliedJobsCard/AppliedJobsCard";
 
 const AppliedJobs = () => {
     const appliedJobs = getBookmarks();
+    const [appJobs, setAppJobs] = useState(appliedJobs);
 
     const handleFilter = (id) => {
-        console.log(id);
+        if (id === "Default") {
+            setAppJobs(appliedJobs);
+        } else {
+            const filteredJobs = appliedJobs.filter((job) =>
+                job.types.includes(id)
+            );
+            setAppJobs(filteredJobs);
+        }
     };
 
     return (
@@ -39,19 +47,24 @@ const AppliedJobs = () => {
                         className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
                     >
                         <li>
-                            <a onClick={() => handleFilter("remote")}>Remote</a>
+                            <a onClick={() => handleFilter("Remote")}>Remote</a>
                         </li>
                         <li>
-                            <a onClick={() => handleFilter("onsite")}>
+                            <a onClick={() => handleFilter("Onsite")}>
                                 On Site
+                            </a>
+                        </li>
+                        <li>
+                            <a onClick={() => handleFilter("Default")}>
+                                Default
                             </a>
                         </li>
                     </ul>
                 </div>
             </section>
-            ''
+
             <section className="mt-32">
-                {appliedJobs.map((appliedJob) => (
+                {appJobs.map((appliedJob) => (
                     <AppliedJobsCard
                         key={appliedJob.id}
                         appliedJob={appliedJob}
