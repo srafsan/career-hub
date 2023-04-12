@@ -1,7 +1,5 @@
 import React from "react";
 
-import HeroLogo from "../../assets/All Images/P3OLGJ1 copy 1.png";
-
 const Hero = () => {
     return (
         <div className="grid md:grid-cols-2 text-left">
@@ -20,7 +18,11 @@ const Hero = () => {
                 </button>
             </div>
             <div>
-                <img src={HeroLogo} className="md:float-right" alt="Banner" />
+                <img
+                    src="https://i.ibb.co/fvf80pj/P3-OLGJ1-copy-1.png"
+                    className="md:float-right"
+                    alt="Banner"
+                />
             </div>
         </div>
     );

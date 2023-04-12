@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "logo": "../src/assets/Logo/google-1-1 1-1.png",
+        "logo": "https://i.ibb.co/KGmCVcK/google-1-1-1-1.png",
         "job": "Technical Database Engineer",
         "name": "Google LLC",
         "location": "Dhaka, Bangladesh",
@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "logo": "../src/assets/Logo/netflix-4 1.png",
+        "logo": "https://i.ibb.co/wBC5yGb/netflix-4-1.png",
         "name": "Netflix",
         "job": "Senior Product Designer",
         "location": "Dhaka, Bangladesh",
@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "logo": "../src/assets/Logo/tesla-9 1.png",
+        "logo": "https://i.ibb.co/T4X1sn4/tesla-9-1.png",
         "name": "Tesla",
         "job": "Software Engineer",
         "location": "Dhaka, Bangladesh",
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "logo": "../src/assets/Logo/google-1-1 1-1.png",
+        "logo": "https://i.ibb.co/KGmCVcK/google-1-1-1-1.png",
         "name": "Google LLC",
         "job": "Technical Database Engineer",
         "location": "Dhaka, Bangladesh",
@@ -57,7 +57,7 @@
     },
     {
         "id": 5,
-        "logo": "../src/assets/Logo/tesla-9 1.png",
+        "logo": "https://i.ibb.co/T4X1sn4/tesla-9-1.png",
         "name": "Tesla",
         "job": "Accountant",
         "location": "Dhaka, Bangladesh",
@@ -71,7 +71,7 @@
     },
     {
         "id": 6,
-        "logo": "../src/assets/Logo/google-1-1 1-1.png",
+        "logo": "https://i.ibb.co/KGmCVcK/google-1-1-1-1.png",
         "name": "Google LLC",
         "job": "Software Engineer",
         "location": "Dhaka, Bangladesh",

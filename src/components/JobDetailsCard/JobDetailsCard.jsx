@@ -1,10 +1,5 @@
 import React from "react";
 
-import MoneyLogo from "../../assets/Icons/Frame.png";
-import CalenderLogo from "../../assets/Icons/Frame-1.png";
-import PhoneLogo from "../../assets/Icons/Frame-2.png";
-import EmailLogo from "../../assets/Icons/Frame-3.png";
-import LocationLogo from "../../assets/Icons/Frame-4.png";
 import { addToDb } from "../../utils/fakeDB";
 
 const JobDetailsCard = ({ jobs }) => {
@@ -61,14 +56,20 @@ const JobDetailsCard = ({ jobs }) => {
                             Job Details
                         </h4>
                         <div className="flex gap-2 mt-6">
-                            <img src={MoneyLogo} alt="money" />
+                            <img
+                                src="https://i.ibb.co/g3t0LCT/Frame.png"
+                                alt="money"
+                            />
                             <p className="text-gray-500">
                                 <strong className="text-black">Salary: </strong>
                                 {salary} (Per Month)
                             </p>
                         </div>
                         <div className="flex gap-2 mt-6">
-                            <img src={CalenderLogo} alt="calender" />
+                            <img
+                                src="https://i.ibb.co/9cy8tZy/Frame-1.png"
+                                alt="calender"
+                            />
                             <p className="text-sm text-gray-500">
                                 <strong className="text-black">
                                     Job Title:{" "}
@@ -84,21 +85,30 @@ const JobDetailsCard = ({ jobs }) => {
                             Contact Information
                         </h4>
                         <div className="flex gap-2 mt-6">
-                            <img src={PhoneLogo} alt="money" />
+                            <img
+                                src="https://i.ibb.co/r0fkq6Q/Frame-2.png"
+                                alt="money"
+                            />
                             <p className="text-gray-500">
                                 <strong className="text-black">Phone: </strong>
                                 {contact}
                             </p>
                         </div>
                         <div className="flex gap-2 mt-6">
-                            <img src={EmailLogo} alt="calender" />
+                            <img
+                                src="https://i.ibb.co/HV4Yc8R/Frame-3.png"
+                                alt="calender"
+                            />
                             <p className="text-sm text-gray-500">
                                 <strong className="text-black">Email: </strong>
                                 {contact}
                             </p>
                         </div>
                         <div className="flex gap-2 mt-6">
-                            <img src={LocationLogo} alt="location" />
+                            <img
+                                src="https://i.ibb.co/Xj7xbv8/Frame-4.png"
+                                alt="location"
+                            />
                             <p className="text-sm text-gray-500">
                                 <strong className="text-black">
                                     Address:{" "}

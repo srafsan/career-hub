@@ -1,8 +1,6 @@
 import React from "react";
-
-import LocationIcon from "../../assets/Icons/Frame-4.png";
-import MoneyIcon from "../../assets/Icons/Frame.png";
 import { Link } from "react-router-dom";
+
 import JobDetails from "../JobDetails/JobDetails";
 
 const AppliedJobsCard = ({ appliedJob }) => {
@@ -37,11 +35,14 @@ const AppliedJobsCard = ({ appliedJob }) => {
 
                 <div className="flex gap-6">
                     <div className="flex gap-2">
-                        <img src={LocationIcon} alt="" />
+                        <img
+                            src="https://i.ibb.co/Xj7xbv8/Frame-4.png"
+                            alt=""
+                        />
                         <p className="text-gray-500">{location}</p>
                     </div>
                     <div className="flex gap-2">
-                        <img src={MoneyIcon} alt="" />
+                        <img src="https://i.ibb.co/g3t0LCT/Frame.png" alt="" />
                         <p className="text-gray-500">Salary: {salary}</p>
                     </div>
                 </div>
