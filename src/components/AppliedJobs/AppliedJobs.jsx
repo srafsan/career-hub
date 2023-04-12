@@ -64,12 +64,18 @@ const AppliedJobs = () => {
             </section>
 
             <section className="mt-32">
-                {appJobs.map((appliedJob) => (
-                    <AppliedJobsCard
-                        key={appliedJob.id}
-                        appliedJob={appliedJob}
-                    />
-                ))}
+                {appJobs.length === 0 ? (
+                    <h1 className="text-xl">
+                        You have not applied for anything!!!
+                    </h1>
+                ) : (
+                    appJobs.map((appliedJob) => (
+                        <AppliedJobsCard
+                            key={appliedJob.id}
+                            appliedJob={appliedJob}
+                        />
+                    ))
+                )}
             </section>
         </div>
     );

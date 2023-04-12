@@ -13,7 +13,11 @@ const FeaturedJobsCard = ({ fJob }) => {
     return (
         <div className="border rounded-lg w-full md:w-[450px] h-full p-10 text-left">
             <div className="h-10">
-                <img className="w-[90px]" src={logo} alt="" />
+                <img
+                    className="w-3/5 md:w-[90px] mx-auto md:mx-0"
+                    src={logo}
+                    alt=""
+                />
             </div>
             <div className="mt-8">
                 <h2 className="text-xl font-bold">{job}</h2>

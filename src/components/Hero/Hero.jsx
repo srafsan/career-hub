@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
@@ -15,7 +16,7 @@ const Hero = () => {
                     all your job application from start to finish.
                 </p>
                 <button className="btn btn-info mt-8 text-white">
-                    Get Started
+                    <Link to="/jobs">Get Started</Link>
                 </button>
             </div>
             <div>
