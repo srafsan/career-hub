@@ -40,7 +40,9 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <Link to="/" className="btn btn-ghost normal-case text-xl">
+                    BanglaJobs
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -59,7 +61,9 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Get started</a>
+                <Link to="/" className="btn btn-info text-white">
+                    Apply
+                </Link>
             </div>
         </div>
     );

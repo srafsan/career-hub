@@ -2,14 +2,14 @@
     {
         "id": 1,
         "logo": "https://i.ibb.co/KGmCVcK/google-1-1-1-1.png",
-        "job": "Technical Database Engineer",
+        "job": "UI/UX Designer",
         "name": "Google LLC",
         "location": "Dhaka, Bangladesh",
         "types": ["Remote", "Full Time"],
-        "salary": "100k-150k",
+        "salary": "60-80k",
         "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
-        "education": "Bachelor degree to complete any reputational university.",
+        "education": "Bachelor degree to complete any reputable university.",
         "experience": "2-3 Years in this field.",
         "contact": "google@gmail.com"
     },
@@ -20,12 +20,12 @@
         "job": "Senior Product Designer",
         "location": "Dhaka, Bangladesh",
         "types": ["Onsite", "Full Time"],
-        "salary": "100k-150k",
-        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "120k-200k",
+        "description": "Lead the design of digital products and experiences from concept to launch. Develop user experience (UX) and user interface (UI) design solutions for web and mobile applications. Conduct user research and usability testing to inform design decisions. Collaborate with cross-functional teams to ensure design solutions align with business objectives. Stay up-to-date with emerging design trends, tools, and technologies.",
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
-        "education": "Bachelor degree to complete any reputational university.",
-        "experience": "2-3 Years in this field.",
-        "contact": "google@gmail.com"
+        "education": "Bachelor's or Master's degree in Design or a related field preferred, with a strong portfolio demonstrating UX and UI design skills and experience.",
+        "experience": "8-12 Years in this field.",
+        "contact": "recruit@netflix.com"
     },
     {
         "id": 3,
@@ -35,11 +35,11 @@
         "location": "Dhaka, Bangladesh",
         "types": ["Remote", "Full Time"],
         "salary": "100k-150k",
-        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "description": "Design and develop software applications to meet customer or business requirements. Write clean, maintainable, and efficient code. Troubleshoot, debug and  existing software. Collaborate with cross-functional teams to identify and prioritize software features. Stay up-to-date with emerging technologies and  development practices.",
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
         "education": "Bachelor degree to complete any reputational university.",
         "experience": "2-3 Years in this field.",
-        "contact": "google@gmail.com"
+        "contact": "hr@testa.com"
     },
     {
         "id": 4,
@@ -48,26 +48,26 @@
         "job": "Technical Database Engineer",
         "location": "Dhaka, Bangladesh",
         "types": ["Onsite", "Full Time"],
-        "salary": "90k-150k",
-        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
-        "education": "Bachelor degree to complete any reputational university.",
-        "experience": "2-3 Years in this field.",
+        "salary": "150k-200k",
+        "description": "Design, implement, and maintain databases and database infrastructure. Develop and maintain database schemas, stored procedures, and triggers. Troubleshoot database issues and provide technical support to end-users. Collaborate with cross-functional teams to ensure database solutions align with business requirements. Stay up-to-date with emerging database technologies and best practices.",
+        "responsibility": "Design, implement, and maintain high-performance, scalable, and reliable databases and database infrastructure. Develop and maintain database schemas, stored procedures, and triggers to ensure efficient data access and manipulation. Troubleshoot database issues and provide technical support to end-users, including performance tuning and optimization. Collaborate with cross-functional teams to ensure database solutions align with business requirements and integrate with other systems. Stay up-to-date with emerging database technologies and best practices to continuously improve database solutions.",
+        "education": "Bachelor's or Master's degree in Computer Science or a related field preferred, with a strong background in database design, development, and administration.",
+        "experience": "5-10 Years in this field.",
         "contact": "google@gmail.com"
     },
     {
         "id": 5,
         "logo": "https://i.ibb.co/T4X1sn4/tesla-9-1.png",
         "name": "Tesla",
-        "job": "Accountant",
+        "job": "Product Manager",
         "location": "Dhaka, Bangladesh",
         "types": ["Onsite", "Full Time"],
-        "salary": "70k-80k",
-        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
-        "education": "Bachelor degree to complete any reputational university.",
-        "experience": "2-3 Years in this field.",
-        "contact": "google@gmail.com"
+        "salary": "90k-112k",
+        "description": "Plan, execute, and deliver projects on time, within budget, and according to specifications. Define project scope, goals, and deliverables. Identify risks and develop risk mitigation plans. Develop and maintain project documentation, including project plans, schedules, and budgets. Collaborate with cross-functional teams to ensure project success.",
+        "responsibility": "Develop and execute product strategies to meet customer needs and business objectives. Conduct market research and analyze customer feedback to identify product opportunities and trends.Collaborate with cross-functional teams to define product requirements and roadmap. Monitor product performance and metrics, and make data-driven decisions to optimize product success. Lead product launches and go-to-market strategies.",
+        "education": "Bachelor's or Master's degree in Business Administration or a related field preferred.",
+        "experience": "5-8 Years in this field.",
+        "contact": "hr@testa.com"
     },
     {
         "id": 6,
@@ -76,11 +76,11 @@
         "job": "Software Engineer",
         "location": "Dhaka, Bangladesh",
         "types": ["Remote", "Part Time"],
-        "salary": "40k-50k",
-        "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members",
-        "education": "Bachelor degree to complete any reputational university.",
-        "experience": "2-3 Years in this field.",
+        "salary": "220k-300k",
+        "description": "Design and develop software applications using programming languages and tools. Write clean, efficient, and maintainable code. Test and debug software to ensure high-quality and reliable performance. Collaborate with cross-functional teams to identify and prioritize software features. Stay up-to-date with emerging technologies and software development practices.",
+        "responsibility": "Design and develop software applications using programming languages and tools such as Java, Python, and C++. Write clean, efficient, and maintainable code that adheres to industry best practices and coding standards. Test and debug software to ensure high-quality and reliable performance. Collaborate with cross-functional teams to identify and prioritize software features based on customer or business requirements.",
+        "education": "Bachelor's or Master's degree in Computer Science or related field preferred.",
+        "experience": "10-15 Years in this field.",
         "contact": "google@gmail.com"
     }
 ]

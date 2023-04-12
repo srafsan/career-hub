@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
     return (
-        <div className="w-full">
+        <div className="max-w-screen-lg">
             <h1 className="my-10 text-center">This is blog</h1>
             <section className="text-left">
                 <div className="sm:mt-10">
